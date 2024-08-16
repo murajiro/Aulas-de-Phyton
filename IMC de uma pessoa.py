@@ -1,0 +1,6 @@
+nome=input("Digite seu nome: ")
+idade=int(input("Digite sua idade: "))
+peso=float(input("Digite seu peso: "))
+altura=float(input("Digite sua Altura: "))
+imc=float(peso/(altura*altura))
+print(f" Olá, {nome}!\n Sua idade é: {idade}\n Seu peso é: {peso}KG \n Sua altura é : {altura:.2f}M \n Logo seu IMC é igual a: {imc:.2f}")
